@@ -57,7 +57,7 @@ if (quickForm) {
     const phone = document.getElementById("quickPhone").value;
 
     const text = `Merhaba, yivesclinic.com üzerinden 'Sizi Arayalım' talebi bırakıldı.\n\nİsim: ${name}\nTelefon: ${phone}`;
-    const whatsappUrl = `https://wa.me/905453226202?text=${encodeURIComponent(text)}`;
+    const whatsappUrl = `https://wa.me/905416452445?text=${encodeURIComponent(text)}`;
     
     window.open(whatsappUrl, "_blank");
     quickForm.reset();
@@ -74,7 +74,7 @@ if (fullForm) {
     const message = document.getElementById("fullMessage").value;
 
     const text = `Merhaba, web sitenizden yeni bir randevu/bilgi mesajı geldi:\n\nAd Soyad: ${name}\nTelefon: ${phone}\nMesaj: ${message}`;
-    const whatsappUrl = `https://wa.me/905453226202?text=${encodeURIComponent(text)}`;
+    const whatsappUrl = `https://wa.me/905416452445?text=${encodeURIComponent(text)}`;
 
     window.open(whatsappUrl, "_blank");
     fullForm.reset();
@@ -92,7 +92,7 @@ if (aboutForm) {
     const message = document.getElementById("sideMessage").value;
 
     const text = `Merhaba, Yives Clinic web sitesi 'Hakkımızda' sayfasından yeni mesaj:\n\nŞube Tercihi: ${branch}\nAd Soyad: ${name}\nTelefon: ${phone}\nMesaj: ${message}`;
-    const whatsappUrl = `https://wa.me/905453226202?text=${encodeURIComponent(text)}`;
+    const whatsappUrl = `https://wa.me/905416452445?text=${encodeURIComponent(text)}`;
 
     window.open(whatsappUrl, "_blank");
     aboutForm.reset();
