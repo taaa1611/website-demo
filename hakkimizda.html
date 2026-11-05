@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hakkımızda | Yive's Clinic</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header-container">
+      <div class="logo-area">
+        <a href="index.html">
+          <img src="images/logo.png" alt="Yive's Clinic" onerror="this.onerror=null; this.src='https://via.placeholder.com/180x50?text=YIVE%27S+CLINIC'">
+        </a>
+      </div>
+
+      <nav class="main-nav">
+        <ul>
+          <li><a href="index.html">ANASAYFA</a></li>
+          <li><a href="hakkimizda.html" class="active">HAKKIMIZDA</a></li>
+          <li><a href="hizmetlerimiz.html">HİZMETLER</a></li>
+          <li><a href="iletisim.html">İLETİŞİM</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-action">
+        <a href="index.html#call-back" class="btn-pill-outline">SİZİ ARAYALIM</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Sayfa Başlık Alanı (Hero Banner) -->
+  <section class="page-title-banner">
+    <div class="container">
+      <h1>Hakkımızda</h1>
+      <p>Yive's Clinic • Golden Age of Dermocosmetics</p>
+    </div>
+  </section>
+
+  <!-- Ana İçerik: Sol Metin + Sağ Form -->
+  <main class="page-content-section">
+    <div class="container page-content-grid">
+      
+      <!-- Sol Taraf: Tanıtım Metni ve Şubeler -->
+      <article class="content-text-col">
+        <h2>Yives Clinic</h2>
+        
+        <p>Yives Clinic Ailesi 2017 yılından bu yana alanında uzman doktorlarla, son teknoloji FDA onaylı cihazlar ve ürünleriyle sizlere ulaştırmayı ilke edinmiştir.</p>
+        
+        <p>Yives Clinic cerrahi olmayan Lazer Epilasyon ve Cilt tedavileri konusunda uzmandır. Tüm tedavilerimiz, tam eğitimli ve uzmanlar tarafından en üst düzeyde profesyonellik ile uygulanmaktadır.</p>
+        
+        <p>Sonuç odaklıyız ve yalnızca işe yarayan tedaviler sunuyoruz. Tedavileriniz için size yeterli zaman verdiğimizden ve her prosedürü size tam olarak açıkladığımızdan emin oluyoruz.</p>
+        
+        <p>Tüm tedavilerimiz ayrıcalıklı, dinlendirici, özel ve profesyonel bir ortamda sunulmaktadır. Tedavi odalarımız moderndir ve prosedürlerinizden en iyi sonuçları almanızı sağlamak için kaliteli donanım ve ekipmanlarla donatılmıştır.</p>
+
+        <!-- Hizmet Noktaları / Şubeler Kartı -->
+                <div class="clinic-branches">
+          <h3>Hizmet Noktalarımız</h3>
+          
+          <div class="branches-grid">
+            <div class="branch-card">
+              <div class="branch-icon"><i class="fa-solid fa-location-dot"></i></div>
+              <div class="branch-info">
+                <h4>Yives Clinic İzmir</h4>
+                <a href="tel:05453226202" class="branch-phone"><i class="fa-solid fa-phone"></i>  Bostanlı : 0545 322 62 02</a>
+<a href="tel:05453226202" class="branch-phone"><i class="fa-solid fa-phone"></i>  Fahrettin Altay : 0545 322 62 02</a>
+              </div>
+            </div>
+
+            <div class="branch-card">
+              <div class="branch-icon"><i class="fa-solid fa-location-dot"></i></div>
+              <div class="branch-info">
+                <h4>Yives Clinic Denizli</h4>
+                <a href="tel:05413225788" class="branch-phone"><i class="fa-solid fa-phone"></i> 0541 322 57 88</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- Sağ Taraf: Bize Ulaşın Formu -->
+      <aside class="content-form-col" id="about-contact">
+        <div class="sidebar-contact-card">
+          <p class="form-tag">İletişime Geçin</p>
+          <h3>Bize Ulaşın</h3>
+          <p class="form-desc">Sorularınız, tedavi detayları veya randevu talepleriniz için formu doldurabilirsiniz.</p>
+
+          <form id="aboutContactForm">
+            <div class="form-group">
+              <label for="sideName">İsim Soyisim *</label>
+              <input type="text" id="sideName" placeholder="Adınız Soyadınız" required>
+            </div>
+
+            <div class="form-group">
+              <label for="sidePhone">Telefon *</label>
+              <input type="tel" id="sidePhone" placeholder="05XX XXX XX XX" required>
+            </div>
+
+            <div class="form-group">
+              <label for="sideBranch">İlgilendiğiniz Şube</label>
+              <select id="sideBranch">
+                <option value="Bostanlı">Bostanlı</option>
+		<option value="Fahrettin Altay">Fahrettin Altay</option>
+                <option value="Denizli">Denizli</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="sideMessage">Mesajınız *</label>
+              <textarea id="sideMessage" rows="4" placeholder="Öğrenmek istediğiniz konu veya randevu talebiniz..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn-pink btn-block">TALEBİ İLET</button>
+          </form>
+        </div>
+      </aside>
+
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-top">
+      <div class="footer-col brand-col">
+        <h2 class="footer-logo">YIVE'S CLINIC</h2>
+        <p class="tagline">GOLDEN AGE OF DERMOCOSMETICS</p>
+        <p><i class="fa-solid fa-phone"></i> Bostanlı Tel: 0545 322 62 02</p>
+        <p><i class="fa-solid fa-phone"></i> Fahrettin Altay Tel: 0545 322 62 02</p>
+        <p><i class="fa-solid fa-phone"></i> Denizli Tel: 0545 322 62 02</p>
+        <p><i class="fa-solid fa-envelope"></i> Mail: info@yivesclinic.com</p>
+      </div>
+
+      <div class="footer-col links-col">
+        <h5>MENÜ</h5>
+        <ul>
+          <li><a href="index.html">ANASAYFA</a></li>
+          <li><a href="hakkimizda.html" class="active">HAKKIMIZDA</a></li>
+          <li><a href="hizmetlerimiz.html">HİZMETLER</a></li>
+          <li><a href="iletisim.html">İLETİŞİM</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col badges-col">
+        <h5>SERTİFİKALAR</h5>
+        <div class="cert-badges">
+          <img src="images/fda.png" alt="FDA Approved" onerror="this.onerror=null; this.src='https://via.placeholder.com/60x30?text=FDA'">
+          <img src="images/helal.png" alt="Helal Belgesi" onerror="this.onerror=null; this.src='https://via.placeholder.com/60x30?text=HELAL'">
+          <img src="images/iso.png" alt="ISO Standard" onerror="this.onerror=null; this.src='https://via.placeholder.com/60x30?text=ISO'">
+        </div>
+      </div>
+
+      <div class="footer-col services-list-col">
+        <h5>HİZMETLERİMİZ</h5>
+        <ul>
+          <li><a href="hizmetlerimiz.html#lazer-epilasyon">Lazer Epilasyon Uygulamaları</a></li>
+          <li><a href="hizmetlerimiz.html#cilt-bakimi">Cilt Bakımı</a></li>
+          <li><a href="hizmetlerimiz.html#alexandrite">Alexandrite Lazer</a></li>
+	  <li><a href="hizmetlerimiz.html#medikal-estetik">Medikal Estetik Uygulamaları</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <p>© 2026 Yives Clinic. Tüm Hakları Saklıdır</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+<!-- Sabit İletişim Butonları -->
+<div class="floating-actions-group">
+  <!-- Instagram Butonu -->
+  <a href="https://instagram.com/yivesclinic" 
+     class="action-float instagram-float" 
+     target="_blank" 
+     rel="noopener noreferrer" 
+     title="Instagram'da Takip Edin">
+    <i class="fa-brands fa-instagram"></i>
+    <span>Instagram</span>
+  </a>
+
+  <!-- WhatsApp Butonu -->
+  <a href="https://wa.me/905453226202?text=Merhaba,%20yivesclinic.com%20üzerinden%20ulaşıyorum.%20Bilgi%20ve%20randevu%20almak%20istiyorum." 
+     class="action-float whatsapp-float" 
+     target="_blank" 
+     rel="noopener noreferrer" 
+     title="WhatsApp ile İletişime Geçin">
+    <i class="fa-brands fa-whatsapp"></i>
+    <span>Whatsapp</span>
+  </a>
+</div>
+
+  <script src="script.js"></script>
+</body>
+</html>

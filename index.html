@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yive's Clinic | Golden Age of Dermocosmetics</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- FontAwesome İkonları -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header-container">
+      <div class="logo-area">
+        <a href="#home">
+          <!-- images klasöründeki logo dosyasının adını buraya yazabilirsin -->
+          <img src="images/logo.png" alt="Yive's Clinic" onerror="this.onerror=null; this.src='https://via.placeholder.com/180x50?text=YIVE%27S+CLINIC'">
+        </a>
+      </div>
+
+      <nav class="main-nav">
+        <ul>
+          <li><a href="index.html" class="active">ANASAYFA</a></li>
+          <li><a href="hakkimizda.html">HAKKIMIZDA</a></li>
+          <li><a href="hizmetlerimiz.html">HİZMETLER</a></li>
+          <li><a href="iletisim.html">İLETİŞİM</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-action">
+        <a href="#call-back" class="btn-pill-outline">SİZİ ARAYALIM</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Slider Bölümü -->
+    <section class="hero-slider-section" id="home">
+      
+      <!-- Slide 1: Medikal Estetik -->
+      <div class="slide active">
+        <div class="container slide-content">
+          <div class="slide-text">
+            <h2>Medikal Estetik</h2>
+            <p class="slide-subtitle">Dolgu & Gençlik Aşısı & Paris Işıltısı</p>
+            <p class="slide-details">Botoks & Mezoterapi & Saç Mezoterapisi</p>
+            <div class="slide-buttons">
+              <a href="hizmetlerimiz.html#medikal-estetik" class="btn btn-primary">DETAYLAR</a>
+              <a href="#call-back" class="btn btn-secondary">İLETİŞİM</a>
+            </div>
+          </div>
+          <div class="slide-image">
+            <img src="images/medikal-estetik.png" alt="Medikal Estetik" onerror="this.onerror=null; this.src='https://via.placeholder.com/450x450?text=Medikal+Estetik'">
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 2: Soprano Titanyum -->
+      <div class="slide">
+        <div class="container slide-content">
+          <div class="slide-text">
+            <h2>Soprano Titanyum</h2>
+            <p class="slide-subtitle">4 Mevsim Ağrısız Buz Lazer Teknolojisi</p>
+            <p class="slide-details">Tüm Cilt Tiplerine Uygun, Konforlu Epilasyon</p>
+            <div class="slide-buttons">
+              <a href="hizmetlerimiz.html#lazer-epilasyon" class="btn btn-primary">DETAYLAR</a>
+              <a href="#call-back" class="btn btn-secondary">İLETİŞİM</a>
+            </div>
+          </div>
+          <div class="slide-image">
+            <img src="images/soprano-titanium.png" alt="Soprano Titanyum" onerror="this.onerror=null; this.src='https://via.placeholder.com/450x450?text=Soprano+Titanyum'">
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 3: Cynosure Apogee Alexandrite -->
+      <div class="slide">
+        <div class="container slide-content">
+          <div class="slide-text">
+            <h2>Cynosure Apogee Alexandrite</h2>
+            <p class="slide-subtitle">Lazer Epilasyon</p>
+            <p class="slide-details">Kalıcı ve Güçlü Sonuçlar İçin Altın Standart</p>
+            <div class="slide-buttons">
+              <a href="hizmetlerimiz.html#alexandrite" class="btn btn-primary">DETAYLAR</a>
+              <a href="#call-back" class="btn btn-secondary">İLETİŞİM</a>
+            </div>
+          </div>
+          <div class="slide-image">
+            <img src="images/cynosure.png" alt="Cynosure Apogee" onerror="this.onerror=null; this.src='https://via.placeholder.com/450x450?text=Cynosure+Apogee'">
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 4: Hydramaster -->
+      <div class="slide">
+        <div class="container slide-content">
+          <div class="slide-text">
+            <h2>Hydramaster</h2>
+            <p class="slide-subtitle">Profesyonel Derinlemesine Cilt Bakımı</p>
+            <p class="slide-details">Nemlendirme, Arındırma ve Cilt Yenileme Protokolü</p>
+            <div class="slide-buttons">
+              <a href="hizmetlerimiz.html#cilt-bakimi" class="btn btn-primary">DETAYLAR</a>
+              <a href="#call-back" class="btn btn-secondary">İLETİŞİM</a>
+            </div>
+          </div>
+          <div class="slide-image">
+            <img src="images/hydramaster.png" alt="Hydramaster" onerror="this.onerror=null; this.src='https://via.placeholder.com/450x450?text=Hydramaster'">
+          </div>
+        </div>
+      </div>
+
+      <!-- Slider Kontrolleri -->
+      <div class="slider-dots">
+        <span class="dot active" onclick="currentSlide(0)"></span>
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+    </section>
+
+    <!-- Sizi Arayalım / Lead Formu -->
+    <section class="callback-section" id="call-back">
+      <div class="container">
+        <p class="callback-tag">Aklınıza Takılan Sorular mı Var?</p>
+        <h3 class="callback-title">Sizi Aramamızı İster misiniz?</h3>
+        <p class="callback-desc">Aşağıdaki formu eksiksiz doldurduğunuzdan emin olunuz.</p>
+
+        <form class="callback-form" id="quickContactForm">
+          <input type="text" id="quickName" placeholder="İsim Soyisim *" required>
+          <input type="tel" id="quickPhone" placeholder="Telefon *" required>
+          <button type="submit" class="btn-pink">GÖNDER</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Hizmetlerimiz Bölümü -->
+    <section class="services-section" id="services">
+      <div class="container">
+        <h3 class="section-heading">Hizmetlerimiz</h3>
+        
+<div class="services-grid">
+          <!-- Kart 1: Lazer Epilasyon (Soprano Titanyum) -->
+          <a href="hizmetlerimiz.html#lazer-epilasyon" class="service-card">
+            <div class="card-img">
+              <img src="images/hizmet-epilasyon.png" alt="Lazer Epilasyon" onerror="this.onerror=null; this.src='https://via.placeholder.com/260x220?text=Lazer+Epilasyon'">
+            </div>
+            <h4>LAZER EPİLASYON UYGULAMALARI</h4>
+          </a>
+
+          <!-- Kart 2: Cilt Bakımı (Hydramaster vb.) -->
+          <a href="hizmetlerimiz.html#cilt-bakimi" class="service-card">
+            <div class="card-img">
+              <img src="images/hizmet-cilt-bakim.png" alt="Cilt Bakımı" onerror="this.onerror=null; this.src='https://via.placeholder.com/260x220?text=Cilt+Bakimi'">
+            </div>
+            <h4>PROFESYONEL CİLT BAKIM UYGULAMALARI</h4>
+          </a>
+
+          <!-- Kart 3: Alexandrite Lazer -->
+          <a href="hizmetlerimiz.html#alexandrite" class="service-card">
+            <div class="card-img">
+              <img src="images/cynosure.png" alt="Alexandrite Lazer" onerror="this.onerror=null; this.src='https://via.placeholder.com/260x220?text=Alexandrite+Lazer'">
+            </div>
+            <h4>CYNOSURE APOGEE ALEXANDRITE</h4>
+          </a>
+
+          <!-- Kart 4: Medikal Estetik -->
+          <a href="hizmetlerimiz.html#medikal-estetik" class="service-card">
+            <div class="card-img">
+              <img src="images/hizmet-medikal.png" alt="Medikal Estetik" onerror="this.onerror=null; this.src='https://via.placeholder.com/260x220?text=Medikal+Estetik'">
+            </div>
+            <h4>MEDİKAL ESTETİK UYGULAMALARI</h4>
+          </a>
+        </div>
+
+
+    <!-- Detaylı Mesaj / Randevu Formu -->
+    <section class="contact-box-section" id="about">
+      <div class="container">
+        <div class="contact-box">
+          <h3>Randevu Talebi ve Merak Ettikleriniz</h3>
+          <p>Uygulamalar hakkında bilgi almak veya ön görüşme randevusu talep etmek için formu doldurabilirsiniz.</p>
+          <form id="fullContactForm">
+            <div class="form-row">
+              <input type="text" id="fullName" placeholder="Adınız Soyadınız *" required>
+              <input type="tel" id="fullPhone" placeholder="Telefon Numaranız *" required>
+            </div>
+            <textarea id="fullMessage" rows="4" placeholder="İlgilendiğiniz uygulama veya mesajınız..." required></textarea>
+            <button type="submit" class="btn btn-primary">TALEBİ İLET</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-top">
+      <div class="footer-col brand-col">
+<img src="images/logo2.png" alt="Yive's Clinic" onerror="this.onerror=null; this.src='https://via.placeholder.com/180x50?text=YIVE%27S+CLINIC'">
+        <p><i class="fa-solid fa-phone"></i> Bostanlı Tel: 0545 322 62 02</p>
+        <p><i class="fa-solid fa-phone"></i> Fahrettin Altay Tel: 0545 322 62 02</p>
+        <p><i class="fa-solid fa-phone"></i> Denizli Tel: 0545 322 62 02</p>
+        <p><i class="fa-solid fa-envelope"></i> Mail: info@yivesclinic.com</p>
+      </div>
+
+      <div class="footer-col links-col">
+        <h5>MENÜ</h5>
+        <ul>
+         <li><a href="index.html">ANASAYFA</a></li>
+          <li><a href="hakkimizda.html" class="active">HAKKIMIZDA</a></li>
+          <li><a href="hizmetlerimiz.html">HİZMETLER</a></li>
+          <li><a href="iletisim.html">İLETİŞİM</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col badges-col">
+        <h5>SERTİFİKALAR</h5>
+        <div class="cert-badges">
+          <img src="images/fda.png" alt="FDA Approved" onerror="this.onerror=null; this.src='https://via.placeholder.com/60x30?text=FDA'">
+          <img src="images/helal.png" alt="Helal Belgesi" onerror="this.onerror=null; this.src='https://via.placeholder.com/60x30?text=HELAL'">
+          <img src="images/iso.png" alt="ISO Standard" onerror="this.onerror=null; this.src='https://via.placeholder.com/60x30?text=ISO'">
+        </div>
+      </div>
+
+      <div class="footer-col services-list-col">
+        <h5>HİZMETLERİMİZ</h5>
+        <ul>
+	  <li><a href="hizmetlerimiz.html#lazer-epilasyon">Lazer Epilasyon Uygulamaları</a></li>
+          <li><a href="hizmetlerimiz.html#cilt-bakimi">Cilt Bakımı</a></li>
+          <li><a href="hizmetlerimiz.html#alexandrite">Alexandrite Lazer</a></li>
+	  <li><a href="hizmetlerimiz.html#medikal-estetik">Medikal Estetik Uygulamaları</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <p>© 2026 Yives Clinic. Tüm Hakları Saklıdır</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+<!-- Sabit İletişim Butonları -->
+<div class="floating-actions-group">
+  <!-- Instagram Butonu -->
+  <a href="https://instagram.com/yivesclinic" 
+     class="action-float instagram-float" 
+     target="_blank" 
+     rel="noopener noreferrer" 
+     title="Instagram'da Takip Edin">
+    <i class="fa-brands fa-instagram"></i>
+    <span>Instagram</span>
+  </a>
+
+  <!-- WhatsApp Butonu -->
+  <a href="https://wa.me/905453226202?text=Merhaba,%20yivesclinic.com%20üzerinden%20ulaşıyorum.%20Bilgi%20ve%20randevu%20almak%20istiyorum." 
+     class="action-float whatsapp-float" 
+     target="_blank" 
+     rel="noopener noreferrer" 
+     title="WhatsApp ile İletişime Geçin">
+    <i class="fa-brands fa-whatsapp"></i>
+    <span>Whatsapp</span>
+  </a>
+</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
